@@ -864,6 +864,7 @@ the original value, and `into` lets you do that:
 ; => ([:sunlight-reaction "Glitter!"])
 
 (into {} (map identity {:sunlight-reaction "Glitter!"}))
+; => {:sunlight-reaction "Glitter!"}
 ```
 
 This will work with other data structures as well:
